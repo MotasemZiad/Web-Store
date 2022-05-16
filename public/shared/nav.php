@@ -12,7 +12,8 @@
 							$query = 'SELECT * FROM categories WHERE status = 1';
 							$result = mysqli_query($connection, $query);
 							while ($row = mysqli_fetch_assoc($result)) {
-								echo "<li><a href='#'>" . $row['name'] . "</a></li>";
+								$category_id = $row['id'];	
+								echo "<li><a href='show_products.php?category_id=$category_id'>" . $row['name'] . "</a></li>";
 							}
 						?>
 						<!-- <li><a href="#">Hot Deals</a></li>
