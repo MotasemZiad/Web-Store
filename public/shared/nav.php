@@ -8,7 +8,7 @@
 					<ul class="main-nav nav navbar-nav">
 						<li class="active"><a href="#">Home</a></li>
 						<?php 
-							include_once('../web2/final_project/dashboard/db/db_connection.php');
+							include_once('../dashboard/db/db_connection.php');
 							$query = 'SELECT * FROM categories WHERE status = 1';
 							$result = mysqli_query($connection, $query);
 							while ($row = mysqli_fetch_assoc($result)) {
