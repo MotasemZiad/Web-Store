@@ -25,6 +25,10 @@
 		<!-- Custom stlylesheet -->
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 
+		<!-- Nav Icon -->
+		<link rel="apple-touch-icon" href="../dashboard/app-assets/images/ico/apple-icon-120.png">
+  		<link rel="shortcut icon" type="image/x-icon" href="../dashboard/app-assets/images/ico/favicon.ico">
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>

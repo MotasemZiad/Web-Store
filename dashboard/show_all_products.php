@@ -79,7 +79,7 @@
                                                         "<td>". $row['quantity'] ."</td>".
                                                         "<td>". $category_row['name'] ."</td>".
                                                         "<td>". $status ."</td>".
-                                                        "<td> <img width='75px' height='75px' src='http://localhost/web2/final_project/dashboard/uploads/images/". $row['image'] ."'</td>".
+                                                        "<td> <img width='75px' height='75px' src='http://localhost/final_project/dashboard/uploads/images/". $row['image'] ."'</td>".
                                                         "<td> <a href='edit_product.php?id=". $row['id'] ."' class='btn btn-primary'>Edit
                                                                 </a></td>".
                                                         "<td>
